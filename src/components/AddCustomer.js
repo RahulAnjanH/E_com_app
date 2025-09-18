@@ -21,7 +21,7 @@ function AddCustomer() {
 
     if (!form.name || !form.email || !form.phone) {
       toast.error("Please fill all the fields");
-      return;
+      return
     }
     
     // email validation

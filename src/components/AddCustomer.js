@@ -23,7 +23,7 @@ function AddCustomer() {
       toast.error("Please fill all the fields");
       return;
     }
-
+    
     // email validation
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(form.email)) {
